@@ -1,7 +1,14 @@
 # Introduction to the Internet
-- Developed in 1969 by the US Department of Defense
-- To create a decentralized communication network that could withstand a **nuclear attack**
-- Became a global commercial network in the 1990s.
+- Began as ARPANET, an academic research network
+- Developed in 1969 to create a decentralized communication network that could withstand a **nuclear attack**
+- Funded by US military's Advanced Research Projects Agency (ARPA)
+- In 1973, software engineers **Vint Cerf** and **Bob Kahn** began work on the next generation of networking standards for ARPANET
+- The standards, known as **TCP/IP**, became the foundation of the modern internet
+- ARPANET switched to using TCP/IP on 1st January, 1983
+- During 1980s, funding for the internet shifted from the military to **National Science Foundation**
+- NSF funded the long-distance networks that as the internet's backbone from 1981 - 1994
+- Became a global commercial network in the 1990s
+- US government turned control over the internet backbone to the private sector in 1994
 
 ## How the Internet Works
 - The core of the internet is a global network of interconnected routers
