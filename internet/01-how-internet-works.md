@@ -1,6 +1,7 @@
 # Introduction to the Internet
-- Developed in 1960s by the US Department of Defense
+- Developed in 1969 by the US Department of Defense
 - To create a decentralized communication network that could withstand a **nuclear attack**
+- Became a global commercial network in the 1990s.
 
 ## How the Internet Works
 - The core of the internet is a global network of interconnected routers
