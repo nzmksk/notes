@@ -10,6 +10,12 @@
 - The process continues until the packet reaches its final destination
 - IP and TCP ensure packets are sent and received correctly
 
+## Where is the Internet?
+Consist of 3 parts:
+- **Last mile** - part of the internet that connects homes and small businesses to the internet. Also includes the towers that allow people to access the internet with their cell phones.
+- **Data centres** - rooms full of servers that store user data and host online apps and content. Data centers have very fast internet connections, allowing them to serve many users simultaneously. They are often located in remote areas where land and electricity are cheap.
+- **Backbone** - consists of long-distance networks - mostly on fiber optic cables that carry data between data centers and consumers.
+
 ## Building Applications with TCP/IP
 - TCP/IP is the underlying communication protocol used by most internet-based applications and services
 - Provides a reliable, ordered, and error-checked delivery of data between applications running on different devices
