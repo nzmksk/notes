@@ -10,18 +10,18 @@
 - Became a global commercial network in the 1990s
 - US government turned control over the internet backbone to the private sector in 1994
 
+## Where is the Internet?
+Consist of 3 parts:
+- **Last mile** - part of the internet that connects homes and small businesses to the internet. Also includes the towers that allow people to access the internet with their cell phones.
+- **Data centres** - rooms full of servers that store user data and host online apps and content. Data centers have very fast internet connections, allowing them to serve many users simultaneously. They are often located in remote areas where land and electricity are cheap.
+- **Backbone** - consists of long-distance networks - mostly on fiber optic cables that carry data between data centers and consumers.
+
 ## How the Internet Works
 - The core of the internet is a global network of interconnected routers
 - When data is sent over the internet, it is broken up into small packets
 - The router examines the packet and forwards it to the next router in the path towards its destination
 - The process continues until the packet reaches its final destination
 - IP and TCP ensure packets are sent and received correctly
-
-## Where is the Internet?
-Consist of 3 parts:
-- **Last mile** - part of the internet that connects homes and small businesses to the internet. Also includes the towers that allow people to access the internet with their cell phones.
-- **Data centres** - rooms full of servers that store user data and host online apps and content. Data centers have very fast internet connections, allowing them to serve many users simultaneously. They are often located in remote areas where land and electricity are cheap.
-- **Backbone** - consists of long-distance networks - mostly on fiber optic cables that carry data between data centers and consumers.
 
 ## Building Applications with TCP/IP
 - TCP/IP is the underlying communication protocol used by most internet-based applications and services
