@@ -16,6 +16,14 @@ Consist of 3 parts:
 - **Data centres** - rooms full of servers that store user data and host online apps and content. Data centers have very fast internet connections, allowing them to serve many users simultaneously. They are often located in remote areas where land and electricity are cheap.
 - **Backbone** - consists of long-distance networks - mostly on fiber optic cables that carry data between data centers and consumers.
 
+## Who Runs the Internet
+- Is a decentralized network of networks
+- The shared technical standards that make the internet work are managed by **Internet Engineering Task Force (IETF)**
+- IETF is an open organization - anyone is free to attend meetings, propose new standards, and recommend changes to existing standards
+- It's not required to adopt standards endorsed by IETF, but IETF-consensus-based decision-making process helps to ensure that its recommendations are generally adopted by the internet community
+- **Internet Corporation for Assigned Names and Numbers (ICANN)** is responsible for internet governance
+- ICANN is in charge of distributing domain names and IP addresses, though doesn't control who can connect to the internet or what kind of information can be sent over it
+
 ## How the Internet Works
 - The core of the internet is a global network of interconnected routers
 - When data is sent over the internet, it is broken up into small packets
@@ -48,6 +56,10 @@ Consist of 3 parts:
 - Ensure that your application is designed to use SSL/TLS when transmitting sensitive data such as login credentials, payment information, and other personal data
 - Also ensure you obtain and maintain valid SSL/TLS certificates for your servers
 
+## IPv6
+- The current internet standard, known as IPv4, only allows for about 4 billion IP addresses
+- This was considered a very big number in the 1970s, but today, the supply of IPv4 addresses is nearly exhausted
+- Internet engineers have developed a new standard called IPv6 that allows for at least 100 undecillion (one followed by 38 zeros) unique addresses
 
 ## Glossary
 | Term | Description |
