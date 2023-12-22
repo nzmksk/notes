@@ -31,6 +31,11 @@ Consist of 3 parts:
 - The process continues until the packet reaches its final destination
 - IP and TCP ensure packets are sent and received correctly
 
+## IPv6
+- The current internet standard, known as IPv4, only allows for about 4 billion IP addresses
+- This was considered a very big number in the 1970s, but today, the supply of IPv4 addresses is nearly exhausted
+- Internet engineers have developed a new standard called IPv6 that allows for at least 100 undecillion (one followed by 38 zeros) unique addresses
+
 ## Building Applications with TCP/IP
 - TCP/IP is the underlying communication protocol used by most internet-based applications and services
 - Provides a reliable, ordered, and error-checked delivery of data between applications running on different devices
@@ -55,11 +60,6 @@ Consist of 3 parts:
 | Encryption | Once the secure connection is established, data is encrypted using the agreed-upon algorithm and other parameters for the secure connection. |
 - Ensure that your application is designed to use SSL/TLS when transmitting sensitive data such as login credentials, payment information, and other personal data
 - Also ensure you obtain and maintain valid SSL/TLS certificates for your servers
-
-## IPv6
-- The current internet standard, known as IPv4, only allows for about 4 billion IP addresses
-- This was considered a very big number in the 1970s, but today, the supply of IPv4 addresses is nearly exhausted
-- Internet engineers have developed a new standard called IPv6 that allows for at least 100 undecillion (one followed by 38 zeros) unique addresses
 
 ## Glossary
 | Term | Description |
