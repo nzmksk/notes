@@ -2,6 +2,7 @@
 - Defined with `<h1>` to `<h6>` tags
 - `<h1>` defines the most important heading
 - `<h6>` defines the least important heading
+- TODO: Redirect `font-size` to the relevant CSS note when available.
 - Each HTML heading has a default size. To customize the size, you can use CSS `font-size` property.
 
 ### Notes
