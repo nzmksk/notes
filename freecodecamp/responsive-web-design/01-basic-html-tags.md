@@ -7,6 +7,11 @@
 | title |  | Set the ***title*** of the browser tab. |
 | meta |  | Set the browser behaviour. |
 |  | charset | `UTF-8` tells the browser to parse the markup into multiple languages. |
+|  | name | Specify a name for the metadata. |
+|  | content | Specify the value associated with the `http-equiv` or name attribute. |
+| style |  | Used to define ***style*** information for a document |
+| link | rel | Define the ***relationship*** between the current document and an external resource. |
+|  | href | Specify the location of the linked document. |
 | body |  | All **page content** elements that should be rendered to the webpage must be nested inside `<body>` tag. |
 | h1-h6 |  | ***Heading*** elements used to signify the importance of content below them. The lower the number, the higher the importance. <br />Use **only one `<h1>` per page**. |
 | p |  | Used to create a ***paragraph*** of text on websites. |
@@ -34,16 +39,85 @@
 | ol |  | ***Ordered list*** (numbered list). Require `<li>` as children. |
 | li |  | Used in unordered and ordered lists as ***list items***. |
 
-## Basic HTML Skeleton
+## Example HTML Skeleton
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Hello World</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <link rel="stylesheet" href="css-filename.css" />
+    <style>
+      /** For internal CSS styling
+      h1 {
+        text-align: center;
+      }
+      */
+    </style>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <a target="_blank" href="www.google.com">
+        This link opens in new tab.
+      </a>
+      <a href="#main-content">
+        This link redirects to the main content in the same document.
+      </a>
+      </nav>
+    <main id="main-content">
+      <h1>Use only <strong>one</strong> h1 tag in a single document.</h1>
+      <section>
+        <h2>Lists</h2>
+        <h3>Unordered lists:</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+        <h3>Ordered lists:</h3>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+        <figure>
+          <img src="www.google.com" alt="Alternate text for accessibility." />
+          <figcaption>This is a caption for the above image.</figcaption>
+        </figure>
+      </section>
+      <section>
+        <form action="www.google.com/submit-data">
+          <fieldset>
+            <legend>This acts as a caption for the content in <i>fieldset</i> element.</legend>
+            <label>
+              <input
+                id="input-checkbox"
+                type="checkbox"
+                name="input1"
+                value="yes"
+                checked
+              />This is the label for the input.
+            </label>
+            <label for="input-text">You can also label the input using <i>label for</i>.</label>
+            <input
+              id="input-text"
+              type="text"
+              name="input2"
+            />
+          </fieldset>
+          <fieldset>
+          </fieldset>        
+          <button></button>
+        </form>
+      </section>
+      <div>
+        <p><i>div</i> container is less preferred as it's not semantic.</p>
+      </div>
+    </main>
+    <footer></footer>
+    <script></script>
+  </body>
 </html>
 ```
 
