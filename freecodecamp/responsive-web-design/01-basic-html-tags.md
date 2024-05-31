@@ -9,6 +9,7 @@
 |  | charset | `UTF-8` tells the browser to parse the markup into multiple languages. |
 |  | name | Specify a name for the metadata. |
 |  | content | Specify the value associated with the `http-equiv` or name attribute. |
+|  | content | `width=device-width, initial-scale=1.0` makes styling consistent across various screen sizes. |
 | style |  | Used to define ***style*** information for a document |
 | link | rel | Define the ***relationship*** between the current document and an external resource. |
 |  | href | Specify the location of the linked document. |
@@ -17,8 +18,10 @@
 | p |  | Used to create a ***paragraph*** of text on websites. |
 | em |  | Used to ***emphasize*** text. |
 | strong |  | Used to indicate that some text is of ***strong*** importance or urgent. |
+| div |  | Mainly used for design layout purposes. |
 | main |  | Semantic tag that **helps with Search Engine Optimization (SEO) and accessibility**. <br />Used for ***main*** section/content of the webpage. |
 | section |  | Used to represent a group of related content as a ***section***. |
+| article |  | Specifies independent, self-contained content that is make sense on its own. <br />Possible to distribute it independently from the rest of the site. |
 | footer |  | Used to define a ***footer*** section. |
 | figure |  | Used to represent self-contained content that allows images to be associated with a caption. |
 | figcaption |  | Used to add a caption to describe the `<img>` contained within the `<figure>` element. |
