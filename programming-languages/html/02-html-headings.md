@@ -9,3 +9,4 @@
 - Browsers automatically add some white space (margin) before and after a heading
 - `<h1>` tag should be used for main headings, followed by `<h2>` headings, then `<h3>` and so on.
 - A single HTML document should only have **one** `<h1>` tag for better SEO.
+- Use HTML headings for headings only. Don't use headings to make text **BIG** or **bold**.
