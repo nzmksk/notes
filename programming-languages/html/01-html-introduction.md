@@ -7,9 +7,10 @@
 ## Basic Tags
 | Tag | Description |
 | --- | --- |
-| <!DOCTYPE> | Used to declare the document type and helps browsers to display web pages correctly. |
-| html | Defines the root of an HTML document |
-| body | Defines the document's content |
+| `<!DOCTYPE>` | Used to declare the document type and helps browsers to display web pages correctly. |
+| `<html>` | Defines the root of an HTML document. |
+| `<body>` | Defines the document's content. |
 
 ## Contents
 1. [Headings](./02-html-headings.md)
+3. [Formattings](./04-html-formatting.md)
