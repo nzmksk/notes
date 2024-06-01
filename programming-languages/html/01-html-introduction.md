@@ -10,6 +10,7 @@
 | `<!DOCTYPE>` | Used to declare the document type and helps browsers to display web pages correctly. |
 | `<html>` | Defines the root of an HTML document. |
 | `<body>` | Defines the document's content. |
+| `<!-- -->` | Tag for commenting in HTML. |
 
 ## Contents
 1. [Headings](./02-html-headings.md)
