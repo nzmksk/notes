@@ -13,6 +13,7 @@
 | `<!-- -->` | Tag for commenting in HTML. |
 
 ## Contents
-1. [Headings](./02-html-headings.md)
-3. [Formattings](./04-html-formatting.md)
-4. [Quotations and Citations](05-html-quotations.md)
+1. [Headings](./02-headings.md)
+2. [Paragraphs](./03-paragraphs.md)
+3. [Formattings](./04-formattings.md)
+4. [Quotations and Citations](05-quotations.md)
