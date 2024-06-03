@@ -33,3 +33,9 @@
   </tr>
 </table>
 
+<br />
+<hr />
+
+| Previous | Home | Next |
+| :---: | :---: | :---: |
+| [Headings](./02-headings.md) | [HTML Introduction](./01-introduction.md) | [Formattings](./04-formattings.md) |

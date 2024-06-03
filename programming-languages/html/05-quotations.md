@@ -84,3 +84,10 @@ Example:
 <bdo dir="rtl">This text will be written from right to left.</bdo>
 ```
 <bdo dir="rtl">This text will be written from right to left.</bdo>
+
+<br />
+<hr />
+
+| Previous | Home | Next |
+| :---: | :---: | :---: |
+| [Formattings](./04-formattings.md) | [HTML Introduction](./01-introduction.md) |  |
