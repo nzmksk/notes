@@ -1,6 +1,6 @@
 # JavaScript
 - Lightweight - consumes minimal memory resources when its code or an application is running
-- [Interpreted (just-in-time)](../01-general.md#compiled-vs-interpreted-languages) programming language
+- [Interpreted (just-in-time)](../compiled-vs-interpreted-languages.md) programming language
 
 ### Fun Facts
 - Initially named as *'LiveScript'*
