@@ -20,3 +20,6 @@
 - <sup>[1]</sup> Variable types are known at compile time.
 - <sup>[2]</sup> Time required to translate code into an executable program (binary codes).
 - <sup>[3]</sup> Ability to perform multiple things out-of-order, or at the same time, without affecting the final outcome.
+
+## Contents
+1. [Syntax](02-syntax.md)
