@@ -72,4 +72,4 @@
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-| [CSS](./06-css.md) | [HTML Introduction](./01-introduction.md) |  |
+| [CSS](06-css.md) | [HTML Introduction](01-introduction.md) |  |

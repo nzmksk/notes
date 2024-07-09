@@ -17,4 +17,4 @@
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-| [Paragraphs](./03-paragraphs.md) | [HTML Introduction](./01-introduction.md) | [Quotations](./05-quotations.md) |
+| [Paragraphs](03-paragraphs.md) | [HTML Introduction](01-introduction.md) | [Quotations](05-quotations.md) |

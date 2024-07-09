@@ -69,4 +69,4 @@ p {
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-| [Quotations](./05-quotations.md) | [HTML Introduction](./01-introduction.md) | [Links](./07-links.md) |
+| [Quotations](05-quotations.md) | [HTML Introduction](01-introduction.md) | [Links](07-links.md) |

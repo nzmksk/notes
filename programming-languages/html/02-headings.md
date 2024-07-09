@@ -16,4 +16,4 @@
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-|  | [HTML Introduction](./01-introduction.md) | [Paragraphs](./03-paragraphs.md) |
+|  | [HTML Introduction](01-introduction.md) | [Paragraphs](03-paragraphs.md) |

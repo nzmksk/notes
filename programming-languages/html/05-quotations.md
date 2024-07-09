@@ -90,4 +90,4 @@ Example:
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-| [Formattings](./04-formattings.md) | [HTML Introduction](./01-introduction.md) | [CSS](06-css.md) |
+| [Formattings](04-formattings.md) | [HTML Introduction](01-introduction.md) | [CSS](06-css.md) |
