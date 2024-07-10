@@ -24,3 +24,4 @@
 ## Contents
 1. [Syntax](02-syntax.md)
 2. [Variables](03-variables.md)
+3. [Constants](04-constants.md)

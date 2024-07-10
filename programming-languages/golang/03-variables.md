@@ -45,4 +45,4 @@ var (
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-| [Syntax](02-syntax.md) | [Go Introduction](01-introduction.md) |  |
+| [Syntax](02-syntax.md) | [Go Introduction](01-introduction.md) | [Constants](04-constants.md) |
