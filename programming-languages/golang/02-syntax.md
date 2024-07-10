@@ -33,4 +33,4 @@ func main() {
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-|  | [Go Introduction](01-introduction.md) |  |
+|  | [Go Introduction](01-introduction.md) | [Variables](03-variables.md) |
