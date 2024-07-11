@@ -25,4 +25,4 @@ const (
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-| [Variables](03-variables.md) | [Go Introduction](01-introduction.md) |  |
+| [Variables](03-variables.md) | [Go Introduction](01-introduction.md) | [Output](05-output.md) |
