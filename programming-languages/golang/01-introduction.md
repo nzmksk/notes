@@ -26,3 +26,4 @@
 2. [Variables](03-variables.md)
 3. [Constants](04-constants.md)
 4. [Output](05-output.md)
+5. [Data Types](06-data-types.md)

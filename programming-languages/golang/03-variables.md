@@ -32,13 +32,7 @@ var (
 - <sup>[3]</sup>Type of variable is inferred from the value.
 - <sup>[4]</sup>It is not possible to declare a variable using `:=` without assigning a value to it.
 - <sup>[5]</sup>Can only be used inside functions.
-- If a variable is declared without an initial value, its value will be set to the default value of its type.
-
-| Data Type | Default Value |
-| --- | --- |
-| `string` | "" |
-| `int` | 0 |
-| `bool` | false |
+- If a variable is declared without an initial value, its value will be set to the [default value](06-data-types.md#default-values-of-data-type) of its type.
 
 <br />
 <hr />

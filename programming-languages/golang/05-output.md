@@ -224,4 +224,4 @@ func main() {
 
 | Previous | Home | Next |
 | :---: | :---: | :---: |
-| [Constants](04-constants.md) | [Go Introduction](01-introduction.md) |  |
+| [Constants](04-constants.md) | [Go Introduction](01-introduction.md) | [Data Types](06-data-types.md) |
