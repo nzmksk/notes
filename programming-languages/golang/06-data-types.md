@@ -1,9 +1,12 @@
 ## Go Data Types
+
 ### Boolean Data Type
+
 - Declared with `bool` keyword.
 - Can only take values `true` or `false`.
 
 ### Integer Data Types
+
 <table>
   <tr>
     <th>Type</th>
@@ -71,6 +74,7 @@
 </table>
 
 ### Float Data Types
+
 <table>
   <tr>
     <th>Type</th>
@@ -90,20 +94,22 @@
 </table>
 
 ### String Data Type
+
 - Declared with `string` keyword.
 - Must be surrounded by **double quotes** only.
 
 ### Default Values of Data Type
+
 | Data Type | Default Type | Default Value |
-| --- | --- | --- |
-| `bool` | `bool` | false |
-| `int` | `int` | 0 |
-| `float` | `float64` | 0 |
-| `string` | `string` | "" |
+| --------- | ------------ | ------------- |
+| `bool`    | `bool`       | false         |
+| `int`     | `int`        | 0             |
+| `float`   | `float64`    | 0             |
+| `string`  | `string`     | ""            |
 
 <br />
 <hr />
 
-| Previous | Home | Next |
-| :---: | :---: | :---: |
-| [Output](05-output.md) | [Go Introduction](01-introduction.md) |  |
+|        Previous        |                 Home                  |          Next          |
+| :--------------------: | :-----------------------------------: | :--------------------: |
+| [Output](05-output.md) | [Go Introduction](01-introduction.md) | [Arrays](07-arrays.md) |
