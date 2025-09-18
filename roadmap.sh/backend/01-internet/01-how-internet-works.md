@@ -6,6 +6,7 @@
 - [How Wireless Internet Works](#how-wireless-internet-works)
 - [IPv6](#ipv6)
 - [Building Applications with TCP/IP](#building-applications-with-tcpip)
+- [TCP vs UDP](#tcp-vs-udp)
 - [Securing Internet Communication with SSL/TLS](#securing-internet-communication-with-ssltls)
 - [Glossary](#glossary)
 
@@ -83,6 +84,43 @@ Consist of 3 parts:
 | Transmission Control Protocol (TCP) Layer | TCP directs packets to a specific application on a computer using a port number. |
 | Internet Protocol (IP) Layer | IP directs packets to a specific computer using an IP address |
 | Hardware Layer | Converts binary packet data to network signals and back. Examples are ethernet network card, modem for phone lines, etc. |
+
+## TCP vs UDP
+### Protocol Characteristics Comparison
+| Aspect |	TCP (Transmission Control Protocol)	| UDP (User Datagram Protocol) |
+| --- | --- | --- |
+| Connection Type	| Connection-oriented (requires handshake) | Connectionless (no handshake required) |
+| Reliability	| Reliable (guarantees delivery) | Unreliable (no delivery guarantee) |
+| Data Integrity | Error checking and correction | Basic error checking only |
+| Flow Control | Yes (prevents overwhelming receiver) | No |
+| Congestion Control | Yes (adapts to network conditions) | No |
+| Ordering | Maintains packet order | No ordering guarantee |
+| Speed	| Slower due to overhead | Faster with minimal overhead |
+| Header | Size	20-60 bytes |	8 bytes |
+| Data Retransmission	| Automatic retransmission of lost packets | No retransmission |
+
+### TCP Applications and Use Cases
+| Application Category | Specific Examples | Justification |
+| --- | --- | --- |
+| Web Browsing | HTTP/HTTPS, Web browsers |	Requires complete, accurate page loading; can tolerate slight delays |
+| Email	|	SMTP, POP3, IMAP | Must ensure all email content arrives intact and in order |
+| File Transfer	|	FTP, SFTP, SCP | Critical that files transfer completely without corruption |
+| Remote Access	| SSH, Telnet, RDP | Commands must be executed in correct order; reliability essential |
+| Database Operations	|	MySQL, PostgreSQL, Oracle	| Data integrity is crucial; transactions must be reliable |
+| Messaging Apps | WhatsApp, Telegram (text messages) | Text messages must arrive completely and in correct order |
+| Online Banking | Bank websites, Financial transactions | Absolute reliability required; security and data integrity paramount |
+| Cloud Storage	| Google Drive, Dropbox, OneDrive	| Files must sync completely without corruption |
+
+### UDP Applications and Use Cases
+| Application Category | Specific Examples | Justification |
+| --- | --- | --- |
+| Online Gaming	|	First-person shooters, Real-time strategy games |	Speed more important than reliability; can handle occasional packet loss |
+| Video Streaming	| YouTube Live, Twitch, Netflix (sometimes) |	Real-time delivery preferred over perfect quality; buffering acceptable |
+| Voice Communication |	VoIP, Skype, Discord voice chat	| Low latency critical; brief audio dropouts acceptable |
+| DNS Queries	| Domain name resolution | Simple request-response; quick lookup more important than reliability |
+| Network Monitoring | SNMP	| Frequent status updates; losing occasional packets acceptable |
+| Time Synchronization | NTP (Network Time Protocol) | Regular updates; speed more important than guaranteed delivery |
+| Live Broadcasting	|	Live TV streams, Sports broadcasts | Real-time delivery essential; viewers prefer current content over delayed perfect quality |
 
 ## Securing Internet Communication with SSL/TLS
 - SSL and TLS are protocols used to encrypt data being transmitted over the internet
