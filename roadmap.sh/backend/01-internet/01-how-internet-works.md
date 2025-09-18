@@ -4,7 +4,6 @@
 - [Who Runs the Internet?](#who-runs-the-internet)
 - [How the Internet Works](#how-the-internet-works)
 - [How Wireless Internet Works](#how-wireless-internet-works)
-- [What is the Cloud?](#what-is-the-cloud)
 - [IPv6](#ipv6)
 - [Building Applications with TCP/IP](#building-applications-with-tcpip)
 - [Securing Internet Communication with SSL/TLS](#securing-internet-communication-with-ssltls)
@@ -19,6 +18,8 @@
 - ARPANET switched to using TCP/IP on 1st January, 1983
 - During 1980s, funding for the internet shifted from the military to **National Science Foundation**
 - NSF funded the long-distance networks that as the internet's backbone from 1981 - 1994
+- The World Wide Web (WWW) invented by **Tim Berners-Lee** in 1989
+- Revolutionized the Internet by providing a user-friendly interface based on hypertext and URLs (Uniform Resource Locators)
 - Became a global commercial network in the 1990s
 - US government turned control over the internet backbone to the private sector in 1994
 
@@ -37,11 +38,12 @@ Consist of 3 parts:
 - ICANN is in charge of distributing domain names and IP addresses, though doesn't control who can connect to the internet or what kind of information can be sent over it
 
 ## How the Internet Works
-- The core of the internet is a global network of interconnected routers
-- When data is sent over the internet, it is broken up into small packets
-- The router examines the packet and forwards it to the next router in the path towards its destination
-- The process continues until the packet reaches its final destination
-- IP and TCP ensure packets are sent and received correctly
+- **Data Segmentation**: The sending application divides the data into smaller segments.
+- **TCP Encapsulation (if using TCP)**: TCP adds a header to each segment, containing information such as sequence numbers, acknowledgment numbers, and port numbers.
+- **IP Encapsulation**: IP adds another header to each packet, containing the source and destination IP addresses.
+- **Routing**: Routers along the path examine the destination IP address and forward the packet to the next hop.
+- **Reassembly**: The receiving device reassembles the packets based on the sequence numbers in the TCP headers.
+- **Data Delivery**: The receiving application receives the complete data stream.
 
 ## How Wireless Internet Works
 | WiFi | Cellular |
@@ -49,7 +51,7 @@ Consist of 3 parts:
 | Use unlicensed spectrum - electromagnetic frequencies that are available for anyone to use without charge. | More centralized, work by breaking up the service territory into cells. In the densest areas, cells can be as small as a single city block and miles across in rural areas. |
 | Strict limits on the power and range of wifi networks to prevent neighbours' networks from interfering with each other. | Each cell has a tower as its centre providing services. When a device moves from one cell to another, the network automatically hands off the device from one tower to another. |
 
-## Packet
+### Packet
 - Basic unit of information transmitted over the internet.
 - Allow the network's capacity to be used more efficiently.
 - Consists of two parts:
@@ -77,7 +79,7 @@ Consist of 3 parts:
 
 | Protocol | Stack |
 | --- | --- |
-| Application Protocols Layer | Protocols specific to applications such as WWW, e-mail, FTP, etc. |
+| Application Protocols Layer | Protocols specific to applications such as WWW, e-mail (SMTP), FTP, etc. |
 | Transmission Control Protocol (TCP) Layer | TCP directs packets to a specific application on a computer using a port number. |
 | Internet Protocol (IP) Layer | IP directs packets to a specific computer using an IP address |
 | Hardware Layer | Converts binary packet data to network signals and back. Examples are ethernet network card, modem for phone lines, etc. |
